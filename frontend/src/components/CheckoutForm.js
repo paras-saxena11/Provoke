@@ -19,7 +19,8 @@ function CheckoutForm() {
     if (!stripe || !elements) return;
     setPaying(true);
     const { client_secret } = await fetch(
-      "http://localhost:5000/create-payment",
+      "https://provoke-l3rl.onrender.com/create-payment",
+      // "http://localhost:5000/create-payment",
       {
         method: "POST",
         headers: {
