@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
   // baseUrl: "http://localhost:5000",
-  baseUrl: "https://provoke-l3rl.onrender.com",
+  baseUrl: "https://provoke-bwjt.onrender.com",
 });
 
 export const apiSlice = createApi({

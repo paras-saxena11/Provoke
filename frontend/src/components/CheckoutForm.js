@@ -19,7 +19,7 @@ function CheckoutForm() {
     if (!stripe || !elements) return;
     setPaying(true);
     const { client_secret } = await fetch(
-      "https://provoke-l3rl.onrender.com/create-payment",
+      "https://provoke-bwjt.onrender.com/create-payment",
       // "http://localhost:5000/create-payment",
       {
         method: "POST",
