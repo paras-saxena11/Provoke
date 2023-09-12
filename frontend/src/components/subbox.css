@@ -1,0 +1,20 @@
+.type-box {
+  padding: 40px;
+  background-color: rgb(75, 135, 218);
+  color: white;
+  border-radius: 5px;
+}
+
+.option-box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hovered:hover {
+  cursor: pointer;
+  color: blue;
+}
